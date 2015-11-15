@@ -17,3 +17,5 @@ const Model = function (DB, schema) {
         res.json(msg);
     })
 }
+
+module.exports = Model;
