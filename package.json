@@ -1,0 +1,11 @@
+{
+  "name": "arquitetura-atomica",
+  "version": "1.0.0",
+  "description": "Arquitetura modelo para usar em outros sistemas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dariano soares",
+  "license": "ISC"
+}
