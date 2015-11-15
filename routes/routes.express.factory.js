@@ -7,20 +7,20 @@ var ROUTE = function (routes) {
     return {
         router: Router,
         isNull: function (Routes) {
-            return (Routes.router == {} || Routes.router === null || Routes.router == undefined);
+            return (Routes.router === {} || Routes.router === null || Routes.router == undefined);
         },
         createRoute: function (element, index, array) {
             return ROUTE.router[element.method](element.url, element.callback);
         },
         createModuleRoutes: function (router, routes) {
-             if (this.isNull(Routes))
-                return false;
+            //  if (this.isNull(routes))
+            //     return false;
 
             // default Express
             if(router)
-                ROUTE.Router = router;
+                ROUTE.router = router;
 
-            return routes.forEach(ROUTE.createRoute);
+            return routes.map(this.createRoute);
         }
     }
 };

@@ -1,10 +1,10 @@
 const Skeleton = [
-    requere('./fields/field.name'),
-    requere('./fields/field.description'),
-    requere('./fields/field.alcohol'),
-    requere('./fields/field.price'),
-    requere('./fields/field.category'),
-    requere('./fields/field.created_at'),
+    require('./fields/field.name'),
+    require('./fields/field.description'),
+    require('./fields/field.alcohol'),
+    require('./fields/field.price'),
+    require('./fields/field.category'),
+    require('./fields/field.created_at'),
 ];
 
 module.exports = Skeleton;

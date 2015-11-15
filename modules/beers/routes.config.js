@@ -3,30 +3,42 @@ const routes = [{
       action: 'create'
     , method: 'post'
     , url: '/'
-    , callback: ''
+    , callback: function () {
+
     }
-  , {
+    },
+   {
       action: 'retrieve'
     , method: 'get'
     , url: '/'
-    , callback: ''
-  }
-  , {
+    , callback: function () {
+
+    }
+  },
+  {
       action: 'get'
     , method: 'get'
     , url: '/:id'
-    , callback: ''
-  }
-  , {
+    , callback: function () {
+
+    }
+  },
+  {
       action: 'update'
     , method: 'put'
     , url: '/:id'
-    , callback: ''
-  }
-  , {
+    , callback: function () {
+
+    }
+  },
+  {
       action: 'delete'
     , method: 'delete'
     , url: '/:id'
-    , callback: ''
+    , callback: function () {
+
+    }
   }
 ];
+
+module.exports = routes;

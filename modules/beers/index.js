@@ -16,4 +16,11 @@ var RouteCreate = require('./../../routes/route.default.js')(Action, RouteConfig
 // Delete
 
 const RoutesConfig = require('./routes.config');
+
 const Routes = require('./../../routes/routes.express.factory')(RoutesConfig);
+
+var Module = {
+  routes: Routes
+};
+
+module.exports = Module;
