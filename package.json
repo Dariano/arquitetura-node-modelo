@@ -7,5 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "dariano soares",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "event-controller": "^1.0.1",
+    "express": "^4.13.3"
+  }
 }
